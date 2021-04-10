@@ -1,0 +1,247 @@
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --dark-bg-cl: #2f303a;
+  --alt-bg-cl: #f5f4fa;
+  --bg-cl-cards: #ffffff;
+  --main-font: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.list-style,
+.list-style-contacts,
+.list-style-content {
+  list-style: none;
+}
+.link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-text-color);
+}
+
+.logo .black-word {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+  color: var(--title-text-color);
+}
+
+.logo-word {
+  font-family: inherit;
+  color: var(--accent-text-color);
+}
+
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.hero {
+  background-color: var(--dark-bg-cl);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--bg-cl-cards);
+}
+
+.btn {
+  cursor: pointer;
+  background-color: var(--accent-text-color);
+}
+
+.btn-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--bg-cl-cards);
+}
+
+.content-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.content-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.work-section {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.pic-item {
+  list-style: none;
+}
+
+.team {
+  background-color: var(--alt-bg-cl);
+}
+
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.team-item {
+  list-style: none;
+  background-color: var(--bg-cl-cards);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.pic-member {
+  background: url(4853.jpg);
+  border-radius: 0px;
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.team-item-position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.footer {
+  background-color: var(--dark-bg-cl);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--bg-cl-cards);
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--bg-cl-cards);
+}
+
+.contacts-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* :root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --dark-bg-cl: #2f303a;
+  --alt-bg-cl: #f5f4fa;
+  --bg-cl-cards: #ffffff;
+  --main-font: "Roboto", sans-serif;
+} */
+
+body {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.title-hidden {
+  visibility: hidden;
+}
+
+.title-btn,
+.section-items {
+  list-style: none;
+}
+
+.link-btn {
+  background-color: var(--alt-bg-cl);
+  color: var(--title-text-color);
+  border-radius: 4px;
+}
+
+.link-btn:hover,
+.link-btn:focus {
+  color: var(--bg-cl-cards);
+  background-color: var(--accent-text-color);
+}
+
+.btn-section {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-item {
+  background: var(--bg-cl-cards);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.portfolio-subtitle {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
