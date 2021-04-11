@@ -5,11 +5,11 @@
   --dark-bg-cl: #2f303a;
   --alt-bg-cl: #f5f4fa;
   --bg-cl-cards: #ffffff;
-  --main-font: 'Roboto', sans-serif;
+  --main-font: "Roboto", sans-serif;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -21,24 +21,17 @@ body {
 .list-style-content {
   list-style: none;
 }
-
 .link {
-  font-weight: 500;
   color: var(--title-text-color);
   text-decoration: none;
 }
-
-.current {
-  color: var(--accent-text-color);
-}
-
 .link:hover,
 .link:focus {
   color: var(--accent-text-color);
 }
 
 .logo .black-word {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -48,21 +41,19 @@ body {
 
 .logo-word {
   font-family: inherit;
-  font-weight: bold;
   color: var(--accent-text-color);
 }
 
 .contacts {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-
 .hero {
   background-color: var(--dark-bg-cl);
 }
-
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -134,7 +125,8 @@ body {
 .team-item {
   list-style: none;
   background-color: var(--bg-cl-cards);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -154,7 +146,6 @@ body {
 
 .team-item-position {
   font-size: 16px;
-  font-weight: normal;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
@@ -166,8 +157,7 @@ body {
 }
 
 .logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -176,7 +166,6 @@ body {
 
 .address {
   font-size: 14px;
-  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--bg-cl-cards);
@@ -184,7 +173,6 @@ body {
 
 .contacts-footer {
   font-size: 14px;
-  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -213,8 +201,7 @@ body {
 }
 
 .title-btn,
-.section-items,
-.footer-item {
+.section-items {
   list-style: none;
 }
 
@@ -222,17 +209,20 @@ body {
   background-color: var(--alt-bg-cl);
   color: var(--title-text-color);
   border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .link-btn:hover,
 .link-btn:focus {
   color: var(--bg-cl-cards);
   background-color: var(--accent-text-color);
+}
+
+.btn-section {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .portfolio-item {
